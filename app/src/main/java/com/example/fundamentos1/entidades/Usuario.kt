@@ -1,3 +1,4 @@
 package com.example.fundamentos1.entidades
 
-data class Usuario(var username: String, var email: String="anonimo@gmail.com")
+data class Usuario(var username: String = "Jorge", var description:String="aaaaaaaaaaaaaaaaaaaaaa",
+                   var email:String="jorge@gmail.com")
